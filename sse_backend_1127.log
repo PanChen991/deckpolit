@@ -1,0 +1,6 @@
+event: log
+data: 已触发 agent 工具调用，正在生成文档…
+
+event: done
+data: {"download_url": "https://static-us-img.skywork.ai/html-to-pptx/presentations/f1ae4a7a-381a-4e48-9631-276177c90b2d_1993925193873735680/2025%E5%B9%B4%E5%9B%BD%E8%BD%A9%E9%AB%98%E7%A7%91%E4%BA%A7%E5%93%81%E7%9F%A9%E9%98%B5%E6%A6%82%E8%A7%88.pptx?expiry=1766815861&sign=3639a6c0fb48c1409fa137b8824c33c3"}
+

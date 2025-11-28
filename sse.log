@@ -1,0 +1,1123 @@
+event: sse_raw
+data: event: endpoint
+
+event: sse_raw
+data: data: /open/message?sessionId=d23a7165-b813-4f20-bb3c-557763b04176&secret_id=de8bab20b37890a753debbb8529b8400&sign=a09ca17e088253cc369486f6b5b1355d&query=%E8%B0%83%E7%A0%9425%E5%B9%B4%E5%AE%87%E6%95%B0%E7%A7%91%E6%8A%80%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%EF%BC%8C%E5%8E%82%E5%AE%B6%EF%BC%8C%E9%9C%80%E8%A6%811-5%E9%A1%B5%E3%80%82+%E6%A8%A1%E6%9D%BF%2F%E5%93%81%E7%89%8C%E8%A6%81%E6%B1%82%EF%BC%9A%E7%AE%80%E6%B4%81%E7%99%BD%E5%BA%95%E6%A8%A1%E6%9D%BF%E3%80%82&use_network=true&status_updates=true&debug=true
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "endpoint", "data": "/open/message?sessionId=d23a7165-b813-4f20-bb3c-557763b04176&secret_id=de8bab20b37890a753debbb8529b8400&sign=a09ca17e088253cc369486f6b5b1355d&query=%E8%B0%83%E7%A0%9425%E5%B9%B4%E5%AE%87%E6%95%B0%E7%A7%91%E6%8A%80%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%EF%BC%8C%E5%8E%82%E5%AE%B6%EF%BC%8C%E9%9C%80%E8%A6%811-5%E9%A1%B5%E3%80%82+%E6%A8%A1%E6%9D%BF%2F%E5%93%81%E7%89%8C%E8%A6%81%E6%B1%82%EF%BC%9A%E7%AE%80%E6%B4%81%E7%99%BD%E5%BA%95%E6%A8%A1%E6%9D%BF%E3%80%82&use_network=true&status_updates=true&debug=true"}
+
+event: frame_text
+data: {"event": "endpoint", "text": "/open/message?sessionId=d23a7165-b813-4f20-bb3c-557763b04176&secret_id=de8bab20b37890a753debbb8529b8400&sign=a09ca17e088253cc369486f6b5b1355d&query=%E8%B0%83%E7%A0%9425%E5%B9%B4%E5%AE%87%E6%95%B0%E7%A7%91%E6%8A%80%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%EF%BC%8C%E5%8E%82%E5%AE%B6%EF%BC%8C%E9%9C%80%E8%A6%811-5%E9%A1%B5%E3%80%82+%E6%A8%A1%E6%9D%BF%2F%E5%93%81%E7%89%8C%E8%A6%81%E6%B1%82%EF%BC%9A%E7%AE%80%E6%B4%81%E7%99%BD%E5%BA%95%E6%A8%A1%E6%9D%BF%E3%80%82&use_network=true&status_updates=true&debug=true"}
+
+event: endpoint_hint
+data: {"endpoint": "https://api.skywork.ai/open/message?sessionId=d23a7165-b813-4f20-bb3c-557763b04176&secret_id=de8bab20b37890a753debbb8529b8400&sign=a09ca17e088253cc369486f6b5b1355d&query=%E8%B0%83%E7%A0%9425%E5%B9%B4%E5%AE%87%E6%95%B0%E7%A7%91%E6%8A%80%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%EF%BC%8C%E5%8E%82%E5%AE%B6%EF%BC%8C%E9%9C%80%E8%A6%811-5%E9%A1%B5%E3%80%82+%E6%A8%A1%E6%9D%BF%2F%E5%93%81%E7%89%8C%E8%A6%81%E6%B1%82%EF%BC%9A%E7%AE%80%E6%B4%81%E7%99%BD%E5%BA%95%E6%A8%A1%E6%9D%BF%E3%80%82&use_network=true&status_updates=true&debug=true", "tool": "gen_ppt_fast"}
+
+event: call_ack
+data: 
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":1,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":1,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":2,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 2,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":2,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":3,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":3,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":3,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 3,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":3,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":4,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":4,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":4,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 4,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":4,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":5,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":5,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":5,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 5,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":5,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":6,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":6,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":6,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 6,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":6,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":7,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":7,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":7,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 7,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":7,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":8,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":8,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":8,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 8,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":8,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":9,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":9,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":9,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 9,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":9,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":10,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":10,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":10,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 10,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":10,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":11,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":11,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":11,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 11,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":11,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":12,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":12,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":12,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 12,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":12,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":13,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":13,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":13,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 13,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":13,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":14,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":14,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":14,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 14,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":14,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":15,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":15,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":15,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 15,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":15,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":16,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":16,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":16,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 16,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":16,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":17,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":17,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":17,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 17,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":17,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":18,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":18,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":18,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 18,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":18,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":19,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":19,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":19,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 19,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":19,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":20,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":20,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":20,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 20,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":20,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":21,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":21,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":21,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 21,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":21,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":22,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":22,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":22,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 22,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":22,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":23,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":23,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":23,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 23,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":23,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":24,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":24,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":24,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 24,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":24,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":25,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":25,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":25,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 25,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":25,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":26,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":26,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":26,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 26,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":26,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":27,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":27,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":27,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 27,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":27,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":28,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":28,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":28,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 28,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":28,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":29,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":29,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":29,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 29,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":29,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data: {"jsonrpc":"2.0","id":1,"result":{"content":[{"type":"text","text":"{\"status\":\"completed\",\"query\":\"è°ç 25å¹´å®æ°ç§ææºå¨äººäº§åï¼åå®¶ï¼éè¦1-5é¡µã æ¨¡æ¿/åçè¦æ±ï¼ç®æ´ç½åºæ¨¡æ¿ã\",\"use_network\":true,\"result_url\":\"https://static-us-img.skywork.ai/html-to-pptx/presentations/d5053c71-eb75-4b7f-bd92-3162e74cdd95_1988870403034525696/2025%E5%B9%B4%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A.pptx?expiry=1765610746\u0026sign=aa114952815236a366028e7026e428f8\",\"file_id\":\"1988870403034525696\",\"message\":\"PPT fast generated successfully\"}"}]}}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"status\\\":\\\"completed\\\",\\\"query\\\":\\\"è°ç 25å¹´å®æ°ç§ææºå¨äººäº§åï¼åå®¶ï¼éè¦1-5é¡µã æ¨¡æ¿/åçè¦æ±ï¼ç®æ´ç½åºæ¨¡æ¿ã\\\",\\\"use_network\\\":true,\\\"result_url\\\":\\\"https://static-us-img.skywork.ai/html-to-pptx/presentations/d5053c71-eb75-4b7f-bd92-3162e74cdd95_1988870403034525696/2025%E5%B9%B4%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A.pptx?expiry=1765610746\\u0026sign=aa114952815236a366028e7026e428f8\\\",\\\"file_id\\\":\\\"1988870403034525696\\\",\\\"message\\\":\\\"PPT fast generated successfully\\\"}\"}]}}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":{\"content\":[{\"type\":\"text\",\"text\":\"{\"status\":\"completed\",\"query\":\"è°ç 25å¹´å®æ°ç§ææºå¨äººäº§åï¼åå®¶ï¼éè¦1-5é¡µã æ¨¡æ¿/åçè¦æ±ï¼ç®æ´ç½åºæ¨¡æ¿ã\",\"use_network\":true,\"result_url\":\"https://static-us-img.skywork.ai/html-to-pptx/presentations/d5053c71-eb75-4b7f-bd92-3162e74cdd95_1988870403034525696/2025%E5%B9%B4%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A.pptx?expiry=1765610746&sign=aa114952815236a366028e7026e428f8\",\"file_id\":\"1988870403034525696\",\"message\":\"PPT fast generated successfully\"}\"}]}}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\":\"completed\",\"query\":\"è°ç 25å¹´å®æ°ç§ææºå¨äººäº§åï¼åå®¶ï¼éè¦1-5é¡µã æ¨¡æ¿/åçè¦æ±ï¼ç®æ´ç½åºæ¨¡æ¿ã\",\"use_network\":true,\"result_url\":\"https://static-us-img.skywork.ai/html-to-pptx/presentations/d5053c71-eb75-4b7f-bd92-3162e74cdd95_1988870403034525696/2025%E5%B9%B4%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A.pptx?expiry=1765610746&sign=aa114952815236a366028e7026e428f8\",\"file_id\":\"1988870403034525696\",\"message\":\"PPT fast generated successfully\"}"
+      }
+    ]
+  }
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "result"]}
+
+event: frame_urls
+data: {"urls": ["https://static-us-img.skywork.ai/html-to-pptx/presentations/d5053c71-eb75-4b7f-bd92-3162e74cdd95_1988870403034525696/2025%E5%B9%B4%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A.pptx?expiry=1765610746&sign=aa114952815236a366028e7026e428f8"]}
+
+event: done
+data: {"download_url": "https://static-us-img.skywork.ai/html-to-pptx/presentations/d5053c71-eb75-4b7f-bd92-3162e74cdd95_1988870403034525696/2025%E5%B9%B4%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%A7%E5%93%81%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A.pptx?expiry=1765610746&sign=aa114952815236a366028e7026e428f8"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":30,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":30,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":30,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 30,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":30,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":31,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":31,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":31,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 31,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":31,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":32,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":32,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":32,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 32,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":32,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":33,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":33,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":33,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 33,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":33,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":34,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":34,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":34,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 34,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":34,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":35,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":35,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":35,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 35,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":35,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":36,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":36,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":36,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 36,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":36,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":37,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":37,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":37,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 37,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":37,"method":"ping"}
+
+event: sse_raw
+data: event: message
+
+event: sse_raw
+data: data:{"jsonrpc":"2.0","id":38,"method":"ping"}
+
+event: sse_raw
+data: 
+
+event: frame_raw
+data: {"event": "message", "data": "{\"jsonrpc\":\"2.0\",\"id\":38,\"method\":\"ping\"}"}
+
+event: frame_text
+data: {"event": "message", "text": "{\"jsonrpc\":\"2.0\",\"id\":38,\"method\":\"ping\"}"}
+
+event: frame_json
+data: {
+  "jsonrpc": "2.0",
+  "id": 38,
+  "method": "ping"
+}
+
+event: frame_keys
+data: {"top_keys": ["jsonrpc", "id", "method"]}
+
+event: log
+data: {"jsonrpc":"2.0","id":38,"method":"ping"}
+

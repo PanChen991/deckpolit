@@ -1,0 +1,34 @@
+services:
+  backend:
+    build: ./backend
+    container_name: deckpilot-backend
+    ports:
+      - "8000:8000"
+    environment:
+      SKYWORK_SECRET_ID: ${SKYWORK_SECRET_ID}
+      SKYWORK_SECRET_KEY: ${SKYWORK_SECRET_KEY}
+      SKYWORK_MCP_SSE_URL: ${SKYWORK_MCP_SSE_URL:-https://api.skywork.ai/open/sse}
+    restart: unless-stopped
+
+  webui-new:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: deckpilot-webui-new
+    ports:
+      - "3001:8080"   # ✅ 改为 3001，避免冲突
+    volumes:
+      - openwebui-data-new:/app/backend/data
+    environment:
+      - OPENAI_API_BASE_URL=http://backend:8000/v1
+      - OPENAI_API_KEY=debug-placeholder
+      - OLLAMA_BASE_URL=http://ollama:11434
+      # 👇【这里是新增的】👇
+      # 设置为 600 秒 (10分钟)，足够覆盖你刚才的 4分17秒
+      - AIOHTTP_CLIENT_TIMEOUT=1200
+      # 如果有 SSL 问题也可以加上这个
+      - ENABLE_RAG_WEB_LOADER_SSL_VERIFICATION=false
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  openwebui-data-new:
